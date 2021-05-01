@@ -13,7 +13,7 @@ import org.junit.Assert;
 public class LoginStepDefinitions extends BasePage {
     LoginPage loginPage = new LoginPage();
 
-    @Given("user is on the login page")
+    @Given("user is on the landing page")
     public void user_is_on_the_login_page() {
         Driver.getDriver().
                 get(ConfigurationReader.getProperty("url"));
@@ -26,7 +26,7 @@ public class LoginStepDefinitions extends BasePage {
 
     @When("user enters username and password and clicks on the login button")
     public void user_is_enter_user_name_and_password_and_clicks_login_button() {
-      loginPage.login();
+        loginPage.login();
     }
 
     @Then("user should see the dashboard page")
@@ -34,9 +34,9 @@ public class LoginStepDefinitions extends BasePage {
         String expected = "Immuta - Log In";
         String actual = Driver.getDriver().getTitle();
 
-        Assert.assertEquals(expected,actual);
+        Assert.assertEquals(expected, actual);
 
     }
 
-
 }
+
