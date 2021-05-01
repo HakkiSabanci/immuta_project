@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-01T18:24:50.226Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1694000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.immuta.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login as user",
+        "description": "",
+        "id": "login;login-as-user",
+        "after": [
+          {
+            "result": {
+              "duration": 602000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.immuta.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1650000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.immuta.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is enter user name and password and clicks login button",
+            "match": {
+              "location": "com.immuta.step_definitions.LoginStepDefinitions.user_is_enter_user_name_and_password_and_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user user should see dashboard page",
+            "match": {
+              "location": "com.immuta.step_definitions.LoginStepDefinitions.user_user_should_see_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As user, I want to be able to login Immuta\u0027s webpage",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
