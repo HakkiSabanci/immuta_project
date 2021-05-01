@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = {"src/test/resources/features/"},
         glue = "com/immuta/step_definitions",
-        dryRun = false,
-        tags = "",
+        dryRun = true,
+        tags = "@policies",
         publish = false
 )
 public class CucumberRunner {

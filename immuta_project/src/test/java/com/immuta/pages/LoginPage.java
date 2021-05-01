@@ -14,8 +14,14 @@ public class LoginPage extends BasePage{
     @FindBy(id = "login")
     private WebElement loginButton;
 
+    public boolean  veryfiyingLogo() {
+        return landingPageLogo.isDisplayed();
+
+    }
 
     public void login(){
+
+
         String userName = ConfigurationReader.getProperty("username");
         String password = ConfigurationReader.getProperty("password");
 
