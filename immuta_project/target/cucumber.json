@@ -1,13 +1,45 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-05-01T19:15:49.476Z",
+        "line": 4,
+        "name": "User logged in to Immuta\u0027s page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.immuta.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password and clicks on the login button",
+            "match": {
+              "location": "com.immuta.step_definitions.LoginStepDefinitions.user_is_enter_user_name_and_password_and_clicks_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-01T20:29:02.610Z",
         "before": [
           {
             "result": {
-              "duration": 6302000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +47,13 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Login as user",
+        "line": 8,
+        "name": "As a user I should add ssn under local policies",
         "description": "",
-        "id": "login;login-as-user",
+        "id": "local-policies;as-a-user-i-should-add-ssn-under-local-policies",
         "after": [
           {
             "result": {
-              "duration": 994000000,
               "status": "passed"
             },
             "match": {
@@ -35,48 +66,80 @@
         "steps": [
           {
             "result": {
-              "duration": 3172000000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 6,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.immuta.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
+            "line": 10,
+            "name": "user on the dashboard page",
+            "match": {},
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 428000000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 7,
-            "name": "user is enter user name and password and clicks login button",
-            "match": {
-              "location": "com.immuta.step_definitions.LoginStepDefinitions.user_is_enter_user_name_and_password_and_clicks_login_button()"
+            "line": 11,
+            "name": "user click on the data source titled \"Data Source - Local Policies\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
+            "line": 12,
+            "name": "user navigates to the \"Data Dictionary\" tab",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user click the \"Add Tags\" button in the \"ssn\" column",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 30000000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
-            "name": "user user should see dashboard page",
-            "match": {
-              "location": "com.immuta.step_definitions.LoginStepDefinitions.user_user_should_see_dashboard_page()"
+            "line": 14,
+            "name": "user apply the \"Policy Tags.Data\" tag",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
+            "line": 15,
+            "name": "user should see the tag \"Example Global Data Policy\" in data source",
+            "match": {},
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@policies"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "  As user, I want to be able to login Immuta\u0027s webpage",
-    "id": "login",
+    "name": "Local policies",
+    "description": "",
+    "id": "local-policies",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Login.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/LocalPolicies.feature",
+    "tags": [
+      {
+        "name": "@policies",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

@@ -1,15 +1,15 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "2ea96432-446a-4bca-8381-5b2160a13922",
-    "feature": "Login",
-    "scenario": "Login as user",
-    "start": 1619896549476,
+    "id": "2b84f1fa-e3fa-49b8-852b-b206654c6211",
+    "feature": "Local policies",
+    "scenario": "As a user I should add ssn under local policies",
+    "start": 1619900942610,
     "group": 1,
     "content": "",
-    "tags": "",
-    "end": 1619896560627,
-    "className": "passed"
+    "tags": "@policies,",
+    "end": 1619900942794,
+    "className": "undefined"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([

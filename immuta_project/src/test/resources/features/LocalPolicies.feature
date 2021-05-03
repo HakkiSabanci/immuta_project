@@ -11,5 +11,5 @@ Feature: Local policies
     Then user click on the data source titled Data Source - Local Policies
     Then user navigates to the Data Dictionary tab
     And user click the Add Tags button in the ssn column
-    And user apply the "Policy Tags.Data" tag
+    And user apply the Policy Tags.Data tag
     Then user should see the tag Example Global Data Policy in data source
