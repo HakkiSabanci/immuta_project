@@ -17,5 +17,8 @@ public class DataSourceLocalPoliciesPage extends BasePage{
     @FindBy(xpath = "//label[contains(text(),'Search by Tag Name')]")
     public WebElement addTagSearchBox;
 
+    @FindBy(className = "dp-chip--text ng-binding")
+    public WebElement  policyTagsDataTag;
+
 
 }

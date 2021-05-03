@@ -1,9 +1,11 @@
 @policies
-Feature: Local policies
+Feature: Add global policy
+  Description: The purpose of this feature is to test adding  global policy to the data source
 
   Background: User logged in to Immuta's page
-  Given user is on the login page
-    Then user enters username and password and clicks on the login button
+    Given user navigates to the login page
+    Then user submits username and password
+    Then user should be logged in
 
   Scenario: As a user I should add ssn under local policies
 

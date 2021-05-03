@@ -1,14 +1,14 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "2b84f1fa-e3fa-49b8-852b-b206654c6211",
-    "feature": "Local policies",
+    "id": "b6516346-3ae2-4a91-8688-69b351de2f27",
+    "feature": "Add global policy",
     "scenario": "As a user I should add ssn under local policies",
-    "start": 1619900942610,
+    "start": 1620012466419,
     "group": 1,
     "content": "",
     "tags": "@policies,",
-    "end": 1619900942794,
+    "end": 1620012472382,
     "className": "undefined"
   }
 ]);
