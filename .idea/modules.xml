@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/immuta_project/Summer2020CucumberTestAutomationProject.iml" filepath="$PROJECT_DIR$/immuta_project/Summer2020CucumberTestAutomationProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/immuta_project/TestAutomation.iml" filepath="$PROJECT_DIR$/immuta_project/TestAutomation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/immuta_project.iml" filepath="$PROJECT_DIR$/.idea/immuta_project.iml" />
     </modules>
   </component>

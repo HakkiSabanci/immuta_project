@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Summer2020CucumberTestAutomationProject" />
+        <module name="TestAutomation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Summer2020CucumberTestAutomationProject" target="8" />
+      <module name="TestAutomation" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
